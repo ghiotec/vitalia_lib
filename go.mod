@@ -1,3 +1,3 @@
-module github.com/AGO-90/vitalia_lib
+module github.com/ghiotec/vitalia_lib
 
 go 1.20
