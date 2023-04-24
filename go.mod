@@ -1,3 +1,3 @@
 module github.com/ghiotec/vitalia_lib
 
-go 1.20
+go 1.19
