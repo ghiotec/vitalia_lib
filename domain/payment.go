@@ -1,17 +1,17 @@
 package domain
 
-type State string
+type Status string
 
 const (
-	Approve State = "approve"
-	Decline State = "decline"
-	Pending State = "pending"
+	Approve Status = "approve"
+	Decline Status = "decline"
+	Pending Status = "pending"
 )
 
 type Payment struct {
 	ID     int64   `json:"id"`
 	Amount float64 `json:"amount"`
 	Date   string  `json:"date"`
-	State  State   `json:"state"`
+	State  Status  `json:"status"`
 	User   User    `json:"user"`
 }
