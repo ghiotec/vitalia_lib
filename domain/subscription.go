@@ -6,5 +6,5 @@ type Subscription struct {
 	Description      string    `json:"description" gorm:"size:100"`
 	MonthlyPrice     float64   `json:"monthly_price" gorm:"default:1"`
 	DurationInMonths int64     `json:"duration_in_months" gorm:"default:1"`
-	Services         []Service `json:"services" gorm:"many2many:subscription_services;"` // N -- N
+	Services         []Service `json:"services" gorm:"many2many:subscriptions_services;"` // N -- N
 }
