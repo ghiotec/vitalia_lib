@@ -15,3 +15,9 @@ type Payment struct {
 	State  Status  `json:"status"`
 	User   User    `json:"user"`
 }
+
+// subs -- services
+// N -- N // N -- N
+
+// paym -- user
+// N -- 1 // 1 -- N
